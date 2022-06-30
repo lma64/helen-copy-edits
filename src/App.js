@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <h1 className='h1-title'>Helen Copy Edits</h1>
       <div className='container'>
-          <table class="table table-bordered">
+          <table class="table table-borderless">
             <thead>
               <tr>
                 <th scope="col">All Labels</th>
@@ -16,22 +16,22 @@ function App() {
             </thead>
             <tbody>
               <tr>
-                <th scope="row">Housekeeping</th>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
+                <th scope="row" className='no-bold'>Housekeeping</th>
+                <td><input type="text" id="fname" name="fname"/></td>
+                <td><input type="text" id="fname" name="fname"/></td>
+                <td><input type="text" id="fname" name="fname"/></td>
               </tr>
               <tr>
-                <th scope="row">Food</th>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
+                <th scope="row" className='no-bold'>Food</th>
+                <td><input type="text" id="fname" name="fname"/></td>
+                <td><input type="text" id="fname" name="fname"/></td>
+                <td><input type="text" id="fname" name="fname"/></td>
               </tr>
               <tr>
-                <th scope="row">Nurse</th>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
+                <th scope="row" className='no-bold'>Nurse</th>
+                <td><input type="text" id="fname" name="fname"/></td>
+                <td><input type="text" id="fname" name="fname"/></td>
+                <td><input type="text" id="fname" name="fname"/></td>
               </tr>
             </tbody>
           </table>
